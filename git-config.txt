@@ -1,0 +1,3 @@
+//show all files changed in a commit hash
+git config --global alias.show-ls 'diff-tree --no-commit-id --name-only -r'
+
